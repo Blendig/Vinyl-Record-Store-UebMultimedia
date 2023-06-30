@@ -5,7 +5,7 @@ function loadVideo() {
   var input = document.getElementById("video-input").value;
   var videoId = getVideoId(input);
 
-  if (videoId) {
+  if (videoId) {  
     var embedUrl = "https://www.youtube.com/embed/" + videoId;
     document.getElementById("video-player").innerHTML = '<iframe src="' + embedUrl + '" frameborder="0" allowfullscreen></iframe>';
     addVideoToList(videoId);
