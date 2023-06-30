@@ -212,7 +212,7 @@
   .has-scrollbar::-webkit-scrollbar-button { width: calc(25% - 40px); }
   
   .card-banner {
-    background: var(--cultured);
+    background: white;
     position: relative;
     height: 350px;
     overflow: hidden;
