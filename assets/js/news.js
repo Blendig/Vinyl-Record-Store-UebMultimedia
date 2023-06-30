@@ -7,7 +7,7 @@ var Lslide      = document.querySelectorAll('.Lslide'),
 
 
 function init() {
-    slideHeight = document.querySelector('.wrapper').clientHeight;
+    slideHeight = document.querySelector('.wrapper').clientHeight;  
     for (i = 0; i < Lslide.length; i++) {
         Lslide[i].style.backgroundColor = color[i];
         Lslide[i].style.top = -slideHeight * i + "px";
