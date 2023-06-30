@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Customize Vinyl</title>
+  <link rel="stylesheet" type="text/css" href="./assets/css/customizevinyl.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="./assets/images/title.png" type="image/svg+xml">
+</head>
+<body>
+  <div class="container">
+    <h1>Customize Vinyl Records with your favorite songs!</h1>
+    <div class="video-input">
+      <input type="text" id="video-input" placeholder="Enter YouTube video URL">
+      <button onclick="loadVideo()">Load Video</button>
+    </div>
+    <div id="video-player"></div>
+    <div id="video-list"></div>
+    <div id="cart">
+      <h3>Cart</h3>
+      <ul id="video-cart"></ul>
+      <p>Total: <span id="total-price">$0</span></p>
+      <button onclick="clearCart()">Clear Cart</button>
+      <button onclick="location.href='paymentform.html'">Buy Now</button>
+    </div>
+  </div>
+
+  <script src="./assets/js/customizevinyl.js"></script>
+</body>
+</html>
